@@ -49,11 +49,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &trans       &trans        &trans         &kp EQUAL  &kp INT3
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &trans       &trans        &trans         &trans     &kp RBKT
-&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp END    &trans     &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp COLON  &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp ENTER  &trans     &kp LEFT     &kp DOWN      &kp RIGHT      &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp BSPC   &kp SPACE  &trans       &trans        &trans         &trans     &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &trans       &trans        &trans     &kp EQUAL  &kp INT3
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &trans       &trans        &trans     &trans     &kp LEFT
+&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp END    &kp RBKT   &kp PAGE_UP  &kp UP_ARROW  &kp BSLH   &kp SQT    &kp RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp ENTER  &trans     &kp LEFT     &kp DOWN      &kp RIGHT  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp BSPC   &kp SPACE  &trans       &trans        &trans     &trans     &kp DELETE
             >;
         };
     };
